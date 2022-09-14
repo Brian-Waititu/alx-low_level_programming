@@ -1,4 +1,4 @@
-#include "main.h"
+#include "alx.h"
 
 /**
  * print_alphabet - print alphabet of letters
