@@ -2,19 +2,21 @@
 #include "main.h"
 
 /**
-*print_numbers - function that print all numbers from
-*0 to 9
-*
-*Return: returns nothing
-*/
+ *_puts - prints a string
+ * @str: string to print
+ *
+ * Description: prints a string
+ * On success: returns no error
+ */
 
-void print_numbers(void)
+void _puts(char *str)
 {
-	int n;
+	int i = 0;
 
-	for (n = 48; n < 58; n++)
+	while (*(str + i) != '\0')
 	{
-		putchar(n);
+		putchar(*(str + i));
+		i++;
 	}
 	putchar(10);
 }
