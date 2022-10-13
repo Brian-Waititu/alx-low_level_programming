@@ -1,4 +1,4 @@
-#include "function_pointers.h"
+#ifndef FUNCTION_POINTERS
 
 /**
  * print_name - prints a name.
